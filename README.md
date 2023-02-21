@@ -1,4 +1,4 @@
-# Todo List Sveltekit & Firebase
+# Todo List Sveltekit & Firebase & Bootstrap
 
 My first used Firebase.
 
