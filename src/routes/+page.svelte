@@ -50,7 +50,11 @@
 </script>
 
 {#if loading}
-	<article aria-busy="true" />
+	div class="mt-5 d-flex justify-content-center align-items-center">
+		<div class="spinner-border text-info" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
 {:else}
 	<ul>
 		{#each todos as todo (todo.id)}
